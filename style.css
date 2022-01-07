@@ -66,4 +66,7 @@ background-repeat: no-repeat;
  border-left: 7px solid;
  border-image: linear-gradient(orange, tomato);
  border-image-slice:1;
-}    
+}  
+footer{
+    text-align: center;
+}  
