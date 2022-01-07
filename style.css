@@ -5,6 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
+h2{font-size: 40px;}
 .color{
     color:orangered;
 }
@@ -16,7 +17,9 @@ h1{
     width: 50%;
     padding-left: 2%;
     
+    
 }
+
 .half-width img{width: 80%;
 
 }
@@ -43,5 +46,24 @@ background-repeat: no-repeat;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 10px;
+    border-radius: 10px;
+    border-left: 10px solid;
+
 }
+
+.experience-area{
+    background-image:url(exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1;
     
+}
+#full-strack-developer{
+ border-left: 7px solid;
+ border-image: linear-gradient(orange, tomato);
+ border-image-slice:1;
+}    
